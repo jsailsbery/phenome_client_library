@@ -3,17 +3,17 @@ DEBUG = false
 FLASK_ADMIN_TEMPLATE_MODE = "bootstrap3"
 FLASK_ADMIN_SWATCH = 'cerulean'
 SQLALCHEMY_DATABASE_URI = 'sqlite:///development.db'
-TITLE = "project_name"
+TITLE = "phenome_client_library"
 SECRET_KEY = "Pl3453Ch4ng3"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
     "flask_bootstrap:Bootstrap",
-    "project_name.ext.database:init_app",
-    "project_name.ext.auth:init_app",
-    "project_name.ext.admin:init_app",
-    "project_name.ext.commands:init_app",
-    "project_name.ext.webui:init_app",
-    "project_name.ext.restapi:init_app",
+    "phenome_client_library.ext.database:init_app",
+    "phenome_client_library.ext.auth:init_app",
+    "phenome_client_library.ext.admin:init_app",
+    "phenome_client_library.ext.commands:init_app",
+    "phenome_client_library.ext.webui:init_app",
+    "phenome_client_library.ext.restapi:init_app",
 ]
 
 [development]

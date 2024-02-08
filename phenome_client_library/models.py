@@ -1,6 +1,6 @@
 from sqlalchemy_serializer import SerializerMixin
 
-from project_name.ext.database import db
+from phenome_client_library.ext.database import db
 
 
 class Product(db.Model, SerializerMixin):

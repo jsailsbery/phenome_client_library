@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from phenome_client_library import create_app
+from phenome_client_library.ext.commands import populate_db
+from phenome_client_library.ext.database import db
 
 
 @pytest.fixture(scope="session")
